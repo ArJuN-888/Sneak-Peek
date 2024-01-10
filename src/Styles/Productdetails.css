@@ -1,0 +1,120 @@
+
+.product-card-holder{
+
+ padding-top: 50px;
+ margin: 5px;
+}
+.product-image{
+  position: absolute;
+ height: auto;
+ max-width: 100%;
+ margin: auto;
+
+}
+.prd-brand{
+   font-size: 50px;
+  letter-spacing: 10px;
+  margin-left: 10px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.prd-data-container{
+
+
+}
+.prd-model{
+margin-top: 40px;
+    font-size: 25px;
+  letter-spacing: 6px;
+  margin-left: 10px;
+  color:blue;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prd-stoke{
+    margin-top: 20px;
+    letter-spacing: 5px;
+    color: red;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.prd-rate{
+    padding-top: 40px;
+    letter-spacing: 5px;
+    color: green;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.prd-description{
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-top: 40px;
+   
+   
+}
+.prd-btn-container{
+  
+}
+.imgbrandwrapper{
+  display: flex;
+}
+.prd-btn{
+border: none;
+width: 100%;
+letter-spacing: 5px;
+background-color: orange;
+margin-top: 10px;
+color: white;
+height: 40px;
+border-radius: 4px;
+box-shadow: 0px 0px 5px 0px grey;
+}
+.prdbuy-btn{
+  border: none;
+  width: 100%;
+  letter-spacing: 5px;
+  background-color: grey;
+  margin-top: 10px;
+  color: white;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+div.product-card{
+   width:100%;
+   padding: 5px;
+   display:flex;
+   background-color:lightblue;
+   box-shadow: 0px 0px 10px 0px ;
+   
+
+}
+.prd-img-container{
+    position: relative; 
+  
+}
+.prd-like-btn{
+    position: absolute; /* set button to an absolute position */
+  border: none;
+  background-color: transparent;
+  z-index: 2; /* set a higher z-index than the image */;
+  top:0%; /* adjust the top position of the button */
+  left: 80%; /* adjust the left position of the button */
+  max-width: 100%;
+  height: auto;
+}
+.offcanvas-backdrop.show {
+  display: none; /* Hide the backdrop when offcanvas is shown */
+}
+@media screen and (max-width:594px){
+  div.product-card{
+    width:100%;
+    padding: 5px;
+    display:flex;
+   background-color: transparent;
+   box-shadow: none;
+    
+    
+ 
+ }
+}

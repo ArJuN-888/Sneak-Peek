@@ -1,0 +1,179 @@
+.form-container{
+    padding-top:70px ;
+    display: flex;
+    justify-content:center;
+   
+}
+.form-container-sub{
+    box-shadow: 0px 0px 1px 0px ;
+}
+.inputonly-container{
+    box-shadow: 0px 0px 1px 0px;
+}
+.input{
+    letter-spacing: 5px;
+    height: 38px;
+    border: none;
+}
+div.form-div{
+  padding: 10px;
+  width: fit-content;
+}
+.form-title{
+ font-size: 30px;
+ text-align: center;
+ letter-spacing: 5px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input{
+   width: 100%;
+}
+.frm-link-holder{
+    text-align:end;
+    letter-spacing: 1px;
+    background-color: transparent;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 0px ;
+}
+.form-link{
+    text-decoration: none;
+    letter-spacing: 3px;
+    margin: 0px 8px;
+   
+}
+.frm-btn{
+ width: 100%;
+ border: none;
+ margin-top: 30px;
+ height: 40px;
+ letter-spacing: 3px;
+ color: white;
+background-color:rgba(72, 113, 247)
+
+}
+.frm-btn:hover{
+    color: black;
+}
+.caution{
+    letter-spacing: 4px;
+    color: red;
+   
+}
+.Admin-btm-label{
+   display: flex;
+   justify-content: center;
+    margin-top: 20px;
+    box-shadow: 0px 0px 1px 0px;
+}
+.table-container{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 0px;
+    margin: 5px;
+}
+.table-title{
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+.table{
+    letter-spacing: 4px;
+}
+.table-btn1{
+    border: none;
+    letter-spacing: 3px;
+    padding: 2px 4px;
+    background-color:red;
+    color: white;
+    border-radius: 3px;
+    margin: 0px 2px;
+    box-shadow: 0px 0px 4px 0px grey;
+
+}
+.table-btn2{
+    border: none;
+    letter-spacing: 3px;
+    padding: 2px 20px;
+    background-color:grey;
+    color: white;
+    border-radius: 3px;
+    margin: 0px 2px;
+    box-shadow: 0px 0px 4px 0px grey;
+
+}
+.show-container{
+    display:flex;
+ 
+}
+.check{
+  background-color: black;
+  color: white;
+ width: 18px;
+ padding: 0px;
+
+ 
+}
+.show-label{
+  padding: 0px 10px;
+  letter-spacing: 4px;
+  color: green;
+}
+.userprofile-container{
+ padding-top: 70px;
+ display: grid;
+ justify-content: center;
+ background-color: whitesmoke;
+ box-shadow: 0px 0px 3px 0px;
+ margin: 5px;
+ padding-bottom:10px;
+}
+.userdata-holder{
+    box-shadow: 0px 0px 3px 0px;
+ padding: 10px;
+}
+.prof-header{
+  font-size: 30px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.prof-input{
+width: 100%;
+border: none;
+letter-spacing: 4px;
+}
+.prof-bt{
+ margin: 2px 0px;
+ display: block;
+ border: none;
+ width: 100%;
+ letter-spacing: 4px;
+ background-color: rgba(72, 113, 247);
+ height: 40px;
+ color: white;
+}
+.prof-label{
+    letter-spacing: 4px;
+}
+.profile-org{
+    letter-spacing: 5px;
+  margin:5px 0px;
+
+ 
+
+}
+.view-profile
+{
+    padding: 10px;
+ box-shadow: 0px 0px 4px 0px;
+}
+.prof-title
+{
+    text-align: center;
+    font-size: 30px;
+}
+.admin-main{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 10px 0px;
+    margin: 5px;
+    padding: 5px;
+}

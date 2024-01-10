@@ -1,0 +1,265 @@
+
+.carousel-body {
+    background-color:whitesmoke;
+   
+
+   margin: 5px;
+    box-shadow: 0px 0px 3px 0px;
+   
+  }
+  
+  .caro-hold {
+   padding: 5px;
+  
+    border-radius: 10px;
+  
+  }
+  
+  .caro-im {
+    width: 100%; /* Use width: 100% to make the image fill the width */
+
+    border-radius: 10px;
+   
+  }
+.caro-hdtxt{
+
+    letter-spacing: 4px;
+    font-size: 30px;
+   color: white;
+}
+.caro-txt{
+    letter-spacing: 3px;
+   font-size: 17px;
+   color: white;
+}
+.latest{
+  letter-spacing: 5px;
+  font-size: 24px;
+  padding: 0px 15px;
+  font-weight: 500;
+  
+}
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+ background-color:whitesmoke;
+  margin: 5px;
+  padding-top: 15px;
+  box-shadow: 0px 0px 8px 0px;
+  
+}
+.brand-linkbody{
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+box-shadow: 0px 0px 20px 0px ;
+padding-top: 52px;
+margin: 5px;
+
+
+
+
+}
+div.brand-sub{
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 0px 4px 2px grey ;
+ 
+}
+
+.brand-link{
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  margin: 0px 15px;
+
+
+  
+
+
+}
+.brand-im{
+  max-width: 100%;
+  height: auto;
+
+}
+div.card{
+ margin: 8px;
+padding: 6px;
+ 
+border-radius: 0%;
+ width: fit-content;
+ box-shadow: 0px 0px 4px 0px ;
+
+}
+.div-link{
+  text-decoration: none;
+  color: black;
+}
+.crd-img{
+max-width: 100%;
+height: auto;
+margin: auto;
+display: block;
+border-radius: 5px;
+
+
+}
+.crd-brand{
+  letter-spacing: 4px;
+  padding-top: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.crd-stoke{
+  letter-spacing: 4px;
+width: fit-content;
+color: red;
+
+}
+.crd-model{
+  letter-spacing: 4px;
+}
+.crd-rate{
+  letter-spacing: 4px;
+  color: green;
+  font-weight: 700;
+}
+.img-container{
+  position: relative; /* set container to a relative position */
+}
+.like-btn{
+  position: absolute; /* set button to an absolute position */
+  border: none;
+  background-color: transparent;
+  z-index: 2; /* set a higher z-index than the image */;
+  top: 5%; /* adjust the top position of the button */
+  left: 72%; /* adjust the left position of the button */
+  max-width: 100%;
+  height: auto;
+}
+
+
+.button-container-admin{
+display:flex;
+
+}
+.admin1-btn{
+  border: none;
+  letter-spacing: 3px;
+  width: 100%;
+  margin:0px 3px;
+  color: white;
+  background-color:red;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 0px black ;
+}
+.admin2-btn{
+  border: none;
+  letter-spacing: 3px;
+  width: 100%;
+  margin:0px 3px;
+  color: white;
+  background-color:green;
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px 0px black ;
+}
+.btmcontainer{
+  background-color: black;
+  box-shadow: 0px 0px 5px 0px ;
+  margin: 5px;
+  
+}
+.btm{
+text-decoration: none;
+list-style-type: none;
+letter-spacing: 6px;
+color: white;
+margin: 0px 15px;
+
+}
+.ulist{
+ display: flex;
+}
+
+@media screen and (max-width:500px) {
+    .caro-hdtxt{
+
+        letter-spacing: 3px;
+        font-size: 17px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+      
+    .caro-txt{
+        letter-spacing: 3px;
+       color:aliceblue;
+       font-size: 12px;
+    
+    }
+ 
+ 
+    .stat-txt{
+     
+      font-size: 20px;
+      }
+      .caro-im {
+        width: 100%; /* Use width: 100% to make the image fill the width */
+    
+        border-radius: 10px;
+       
+      }
+ 
+
+}
+  @media screen and (max-width:1600px) {
+    .card-container{
+
+  justify-content: center;
+    }
+   
+    .brand-sub{
+      justify-content: center;
+    }   
+    
+  }
+  @media screen and (max-width:200px) {
+
+.like-btn{
+left: 67%;
+}
+  }
+  .marquee-container {
+    overflow: hidden;
+    background-color: black;
+    height: auto;
+    margin: 5px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 20px 0px;
+  }
+  
+
+  
+  .content {
+    color: white;
+    background-color: black;
+    color: white;
+    width: max-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+    font-size: 20px;
+    animation: marquee 25s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

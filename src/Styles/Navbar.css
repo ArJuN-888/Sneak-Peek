@@ -1,0 +1,246 @@
+.brand{
+    letter-spacing: 5px;
+    font-size: 25px;
+    border-radius: 3px;
+    padding:0px 3px;
+   display: flex;
+   
+}
+.Nav{
+ background-color:whitesmoke;
+}
+
+
+.nav-toggle-btn:hover{
+  border: none;
+    outline: none;
+    box-shadow: 0px 0px 0px 1px orange;
+}
+
+.spn1{
+  animation: 8s infinite;
+  animation-name: s;
+}
+@keyframes s{
+  10%{color:white}
+}
+.spn2{
+  animation: 8s infinite;
+  animation-name: n;
+}
+@keyframes n{
+  20%{color:white}
+}
+.spn3{
+  animation: 8s infinite;
+  animation-name: e;
+}
+@keyframes e{
+  30%{color:white}
+}
+.spn4{
+  animation: 8s infinite;
+  animation-name:a;
+}
+@keyframes a{
+  40%{color:white}
+}
+.spn5{
+  animation: 8s infinite;
+  animation-name: o;
+}
+@keyframes o{
+  50%{color:white}
+}
+.spn6{
+  animation: 8s infinite;
+  animation-name: dash;
+}
+@keyframes dash{
+  60%{color:white}
+}
+.spn7{
+  animation: 8s infinite;
+  animation-name: p;
+}
+@keyframes p{
+  70%{color:white}
+}
+.spn8{
+  animation: 8s infinite;
+  animation-name: l;
+}
+@keyframes l{
+  80%{color:white}
+}
+.spn9{
+  animation: 8s infinite;
+  animation-name: m;
+}
+@keyframes m{
+  90%{color:white}
+}
+.spn10{
+  animation: 8s infinite;
+  animation-name: k;
+}
+@keyframes k{
+  100%{color:white}
+}
+.form-main{
+display:flex;
+
+
+}
+.form-field{
+  border:2px solid white;
+  width: 100%;
+  height: 45px;
+  border-radius: 3px;
+  letter-spacing: 4px;
+  box-shadow: 0px 0px 3px 0px ;
+}
+
+
+
+.links{
+   
+margin: 0px 18px;
+
+
+}
+
+.link{
+  margin: 0px 10px;
+line-height: 40px;
+text-decoration: none;
+letter-spacing: 3px;
+}
+
+
+.form-btn{
+   
+    border-radius: 3px;
+    letter-spacing: 4px;
+   border: none;
+   box-shadow: 0px 0px 2px 0px ;
+   
+    height: 45px;
+    padding: 0px 5px;
+    background-color: transparent;
+}
+.srch-glass{
+  
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px 0px ;
+}
+
+.form-btn:hover{
+  box-shadow: 0px 0px 0px 2px grey;
+}
+
+.log-stat-btn{
+
+  margin: 0px 4px;
+  letter-spacing: 4px;
+  padding: 3px; 
+  border: none;
+  border-radius: 5px;
+  border: 1px solid grey;
+ background-color: transparent;
+ box-shadow: 0px 0px 0px 0px ;
+}
+
+.brand-container{
+  display:inline;
+
+}
+.profile{
+  text-decoration: none;
+  line-height: 40px;
+  letter-spacing: 3px;
+  color: black;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.sub-bar-login{
+  background-color: aqua;
+}
+.group{
+  box-shadow: 0px 0px 4px 0px;
+  border-radius: 5px;
+  display: flex;
+ 
+}
+.group-sub{
+ 
+
+}
+.group1{
+  box-shadow: 0px 0px 4px 0px;
+  border-radius: 5px;
+  margin: 0px 5px;
+  padding: 3px;
+  display: flex;
+  
+}
+.group2{
+  box-shadow: 0px 0px 4px 0px;
+  padding: 5px;
+  margin: 0px 6px;
+  border-radius: 5px;
+  display: flex;
+}
+.admin-stat{
+  border-radius: 5px;
+
+  background-color:transparent;
+  border: 1px solid grey;
+}
+
+
+@media screen and (max-width:990px)  {
+    .links{
+      
+   
+        text-decoration: none;
+        color: black;
+      margin: 20px 0px;
+       
+      
+        
+      }
+      .log-stat-btn{
+     width: fit-content;
+
+margin: auto;
+margin-top: 20px;
+ 
+      }
+      .nav-item{
+       text-align: center;
+       margin: auto;
+      }
+      .group{
+        box-shadow:none;
+      display:grid;
+      justify-content: center;
+      }
+      .group1{
+    
+        box-shadow:none;
+        justify-content: center;
+       
+    
+      }
+      .group2{
+        box-shadow:none;
+        display: grid;
+
+          justify-content: space-around;
+      }
+      
+    }
+ 
+ 
+
