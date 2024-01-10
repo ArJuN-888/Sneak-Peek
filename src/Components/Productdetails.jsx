@@ -77,6 +77,7 @@ console.log("type of id",typeof newid)
            roundedCircle
               className="product-img"
               width="320px"
+              alt=''
             />
             <button
               className="prd-like-btn"
@@ -90,9 +91,10 @@ console.log("type of id",typeof newid)
                   className="like-state-img"
                   height="40px"
                   width="40px"
+                  alt=''
                 />
               ) : (
-                <img src={unlike} height="40px" width="40px" />
+                <img src={unlike} height="40px" width="40px" alt=''/>
               )}
             </button>
 

@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
 import myContext from "./Context";
-import like from "../Pictures/likes.png";
-import unlike from "../Pictures/unlike.png";
 import { Image } from "react-bootstrap";
 import { useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "../Styles/Cart.css";
 export default function Cart() {
-  const {cart,setCart,loginstats,setLoginstats} = useContext(myContext)
+  const {cart,setCart,loginstats} = useContext(myContext)
  
   console.log("CART",cart)
   

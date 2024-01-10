@@ -7,7 +7,7 @@ import like from '../Pictures/likes.png'
 import { Link } from 'react-router-dom';
 import unlike from '../Pictures/unlike.png'
 export default function Cart() {
-  const {Wishlist,setWishlist,loginstats,setLoginstats} = useContext(myContext)
+  const {Wishlist,setWishlist,loginstats} = useContext(myContext)
   const HandleClick = (data) =>{
     if(Wishlist.includes(data))
     {
@@ -49,7 +49,7 @@ export default function Cart() {
        <div key={index}>
           <Link to={`/productdetails/${item.id}`} className='div-link' >
         <div className='card'>
-         <div><Image src={item.img} className='crd-img' thumbnail width="220px" /><button className='like-btn' onClick={(e)=>{HandleClick(item);e.preventDefault()}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px"/>:<img src={unlike}  height="30px" width="30px"/>}</button></div>
+         <div><Image src={item.img} className='crd-img' thumbnail width="220px" alt='' /><button className='like-btn' onClick={(e)=>{HandleClick(item);e.preventDefault()}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px" alt=''/>:<img src={unlike}  height="30px" width="30px" alt=''/>}</button></div>
          <div className='crd-brand'><mark>{item.brand}</mark></div>
          <div className='crd-stoke'>Stoke - <kbd>{item.stoke}</kbd></div>
          <div className='crd-model'>{item.model}</div>

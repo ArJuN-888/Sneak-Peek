@@ -1,6 +1,6 @@
 import React from 'react'
 import myContext from './Context'
-import { useContext,useState } from 'react'
+import { useContext} from 'react'
 export default function Usermanagement() {
     const {userdata,setUserdata,Ban,setBan} = useContext(myContext)
    
