@@ -88,7 +88,7 @@ export default function Adidas() {
        <Link to={`/productdetails/${item.id}`} className='div-link'>
       <div className='card'>
        <div><Image src={item.img} className='crd-img' thumbnail width="220px" /><button className='like-btn' onClick={(e)=>{HandleClick(item)
-         e.preventDefault();}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px"/>:<img src={unlike}  height="30px" width="30px"/>}</button></div>
+         e.preventDefault();}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px" alt=''/>:<img src={unlike}  height="30px" width="30px" alt=''/>}</button></div>
        <div className='crd-brand'><mark>{item.brand}</mark></div>
        <div className='crd-stoke'>Stoke - <kbd>{item.stoke}</kbd></div>
        <div className='crd-model'>{item.model}</div>
@@ -118,7 +118,7 @@ export default function Adidas() {
        <Link to={`/productdetails/${item.id}`} className='div-link'>
       <div className='card'>
        <div><Image src={item.img} className='crd-img' thumbnail width="220px" /><button className='like-btn' onClick={(e)=>{HandleClick(item)
-         e.preventDefault();}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px"/>:<img src={unlike}  height="30px" width="30px"/>}</button></div>
+         e.preventDefault();}}>{Wishlist.includes(item) ? <img src={like} className='like-state-img' height="30px" width="30px" alt=''/>:<img src={unlike}  height="30px" width="30px" alt=''/>}</button></div>
        <div className='crd-brand'><mark>{item.brand}</mark></div>
        <div className='crd-stoke'>Stoke - <kbd>{item.stoke}</kbd></div>
        <div className='crd-model'>{item.model}</div>

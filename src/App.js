@@ -1,4 +1,4 @@
-import { useState} from 'react';
+import { useState } from 'react';
 import myContext from './Components/Context';
 import { proData } from './Components/Json';
 import Navbar from './Components/Navbar'
