@@ -1,5 +1,4 @@
-import { useState,useEffect } from 'react';
-import './App.css';
+import { useState} from 'react';
 import myContext from './Components/Context';
 import { proData } from './Components/Json';
 import Navbar from './Components/Navbar'
