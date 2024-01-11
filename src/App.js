@@ -30,6 +30,7 @@ const [Ban,setBan] = useState([])
   const [userdata,setUserdata] = useState([])
   const [searchresult,setSearchresult] = useState([])
   const [loginstats,setLoginstats] =useState(false)
+  //Card object
   const [carddata,setCarddata] = useState({
     id:"",
     brand:"",
@@ -39,7 +40,7 @@ const [Ban,setBan] = useState([])
     img:"",
     quantity:"",
     description:""
-})
+}) 
   const [signupdata,setSignupdata] = useState({username:"",email:"",password:""})
   const [count,setCount] = useState(1)
   const [total,setTotal] = useState(null)
