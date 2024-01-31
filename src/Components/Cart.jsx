@@ -8,7 +8,6 @@ export default function Cart() {
  
   console.log("CART",cart)
   
-  // const navigate =useNavigate()
 
   const cartDelete =(cardid)=>{
  
