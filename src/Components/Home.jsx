@@ -60,52 +60,38 @@ export default function Home() {
  
         <img className="caro-im" src={a} alt="First slide" />
         <Carousel.Caption >
-          {/* <h5 className='caro-hdtxt'>First slide label</h5> */}
-          {/* <p className='caro-txt'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className="caro-hold">
         <img className="caro-im" src={b} alt="Second slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Second slide label</h5> */}
-          {/* <p className='caro-txt'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item className="caro-hold">
         <img className="caro-im" src={c} alt="Third slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Third slide label</h5> */}
-          {/* <p className='caro-txt'>Praesent commodo cursus magna, vel scelerisque nisl.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="caro-hold">
         <img className="caro-im" src={d} alt="Third slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Fourth slide label</h5> */}
-          {/* <p className='caro-txt'>Praesent commodo cursus magna, vel scelerisque nisl.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="caro-hold">
         <img className="caro-im" src={e} alt="Third slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Third slide label</h5> */}
-          {/* <p className='caro-txt'>Praesent commodo cursus magna, vel scelerisque nisl.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="caro-hold">
         <img className="caro-im" src={f} alt="Third slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Third slide label</h5> */}
-          {/* <p className='caro-txt'>Praesent commodo cursus magna, vel scelerisque nisl.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="caro-hold">
         <img className="caro-im " src={h} alt="Third slide" />
         <Carousel.Caption>
-          {/* <h5 className='caro-hdtxt'>Third slide label</h5> */}
-          {/* <p className='caro-txt'>Praesent commodo cursus magna, vel scelerisque nisl.</p> */}
         </Carousel.Caption>
       </Carousel.Item>
       </Carousel>
@@ -142,14 +128,6 @@ export default function Home() {
       ))}
       
     </div>
-  {/* <div className='btmcontainer'>
-<ul className='ulist'>
-<li className='btm'>ⒸSneak-Peek </li>
-  <li className='btm'>Mail - sneakpeek888@gmail.com </li>
-
- 
-</ul>
-    </div> */}
     </>
   );
 }
